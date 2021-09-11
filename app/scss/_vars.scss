@@ -1,0 +1,23 @@
+//Colors
+$white: #fff;
+$blackPrimary: #2D2D2D;
+$blackSecondary: #595959;
+$orange: #FCB427;
+$red: #FE1E01;
+$silver: #E5E5E5;
+$gray: #C4C4C4;
+$grayDark: #535554;
+$background: #F3F3F3;
+
+//Fonts
+$ptSans: 'PT Sans', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$roboto:  'Roboto', sans-serif;
+@mixin title {
+    font-family: $ptSans;
+    font-weight: 700;
+}
+@mixin main {
+    font-family: $montserrat;
+    font-weight: 400;
+}
