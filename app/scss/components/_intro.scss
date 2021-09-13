@@ -4,6 +4,12 @@
 
     position: relative;
 
+    margin-bottom: 75px;
+
+    @media (max-width: 767px) {
+        margin-bottom: 40px;
+    }
+
     &::after {
         content: 'Liebherr';
         position: absolute;

@@ -44,10 +44,22 @@ introTextSlider.on('slideChange', function () {
     }
 });
 
-
 introSlider.controller.control = introTextSlider;
 introTextSlider.controller.control = introSlider;
 
+
+//rent-slider
+const rentSlider = new Swiper('.rent-slider', {
+    speed: 2400,
+    parallax: true,
+    mousewheel: {
+        invert: false,
+    },
+    navigation: {
+        nextEl: '.-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+});
 //burger-menu
 const burger = document.querySelector('.burger');
 const navMenu = document.querySelector('.header__menu-list');
